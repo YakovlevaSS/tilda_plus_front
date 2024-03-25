@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import './Auth.css';
-
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
+import './Auth.css';
 import { setAuth } from '../../features/authSlice';
 
 

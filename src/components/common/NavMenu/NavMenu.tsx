@@ -86,5 +86,5 @@ const NavMenu = () => {
       </div>
     </nav>
   );
-}
-export default NavMenu
+};
+export default NavMenu;

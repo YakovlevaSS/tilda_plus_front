@@ -19,9 +19,9 @@ const Button = ({
   isActive = false,
 }: IButtonProps) => (
   <button
+    className={ `${classes && s[classes]} ${isDisabled && s.disabled} ${isActive && s.active}` }
     disabled={ isDisabled }
     type="button"
-    className={`${classes && s[classes]} ${isDisabled && s.disabled} ${isActive && s.active}`}
     onClick={ onClick }
   >
     { children }
