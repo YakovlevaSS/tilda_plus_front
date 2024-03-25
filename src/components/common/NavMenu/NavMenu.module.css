@@ -1,0 +1,79 @@
+.menuNav {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+    width: 240px;
+    /* bottom: 0px;
+    position: fixed; */
+    height: calc(100vh - 40px);
+    border-radius: 30px;
+    flex-shrink: 0;
+    background: var(--bg-01-primary-background-light, #fff);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.blockLogo img {
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.heading {
+    color: var(--text-icon-60-light, rgba(0, 0, 0, 0.6));
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.24px;
+}
+.menuNavItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.stepsHeading {
+    color: #444b59;
+    font-size: 14px;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.24px;
+}
+
+@media screen and (max-width: 580px) {
+    .menuNav {
+        padding: 30px 22px;
+        width: 96px;
+    }
+    .blockLogo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tildaLogo {
+        display: none;
+    }
+    .heading {
+        display: none;
+    }
+    .span {
+        display: none;
+    }
+    .stepsHeading {
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.menuNavButton {
+    display: flex;
+    padding: 14px;
+    align-items: center;
+    gap: 14px;
+    align-self: stretch;
+    width: 200px;
+    height: 52px;
+    border-radius: 16px;
+    color: var(--link-button-light, #444b59);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    letter-spacing: 0.24px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.menuNavButton:hover {
+    background: #e8eaec;
+}
+
+.active {
+    background: #e8eaec;
+}
+
+@media screen and (max-width: 580px) {
+    .menuNavButton {
+        padding: 0px;
+        width: 52px;
+        height: 52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

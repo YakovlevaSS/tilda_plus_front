@@ -1,0 +1,91 @@
+.form-add-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    background: #fff;
+    width: 540px;
+    height: 580px;
+    padding: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form-add-login__title {
+    color: #000;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 125% */
+    letter-spacing: 0.24px;
+    margin-top: 73.5px;
+    margin-bottom: 40px;
+}
+.form-add-login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.form-add-login__label {
+    display: flex;
+    height: 56px;
+    width: 420px;
+    padding: 14px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 18px;
+    background: #f5f5f5;
+}
+.form-add-login__input {
+    border: none;
+    outline: none;
+    background: #f5f5f5;
+    padding: 8px;
+    width: 356px;
+    height: 22px;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 0.24px;
+}
+
+input[type='email']::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+input[type='text']::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+input[type='password']::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.form-add-login__input::placeholder {
+    color: hsl(0deg 0% 0%);
+    font-size: 0.9em;
+}
+.form-add-login__button {
+    display: flex;
+    height: 56px;
+    width: 420px;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 18px;
+    background: #ffda47;
+    border: none;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    letter-spacing: 0.24px;
+    margin-top: 14px;
+    color: #000;
+}
